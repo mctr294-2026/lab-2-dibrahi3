@@ -44,8 +44,8 @@ int main(int argc, char **argv)
     else
     {
         std::cout << "Bisection: failed" << std::endl;
-    }
-
+    } 
+    
     if (regula_falsi(poly1, -200.0, 300.0, &root))
     {
         std::cout << "Regula Falsi: root = " << root << ", poly1(root) = " << poly1(root) << std::endl;
